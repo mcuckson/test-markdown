@@ -1,6 +1,6 @@
 # airview-aws-demo-environment
 
-This repo contains the resources neccesary to deploy a basic application to AWS for the purpose of demonstrating AirView. Test
+This repo contains the resources neccesary to deploy a basic application to AWS for the purpose of demonstrating AirView.
 
 ## Architecture
 
