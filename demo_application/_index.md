@@ -16,3 +16,7 @@ Deployment is via Cloudformation. e.g.
 `aws cloudformation deploy --template-file cloudformation/app_template.yml --stack-name airview-demo-tmp  --capabilities CAPABILITY_NAMED_IAM`
 
 After deployment, find the url of the Cloudfront distribution and load in the browser. You may also wish to add some records to the `AirviewDemoDB` to see these displayed in the page.
+
+### IAM Access Keys
+
+This deployment must use IAM Access keys to push code changes to the environment. These should be exempt from compliance monitoring. The keys should be rotated on a monthly basis.
